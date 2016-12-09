@@ -20,18 +20,18 @@ public class CheckPlayerNum {
 
 
 		if (num1.sum < num2.sum) {
-			System.out.println("Second player win!");
+			System.out.println("Second player wins!");
 			score[1]++;
-			String result = "Second player win!"; /* + "GAME SCORE " + score[0] + ":" + score[1];*/
+			String result = "Second player wins!"; /* + "GAME SCORE " + score[0] + ":" + score[1];*/
 			KostiGUI.Resultlabel.setText(result);
 			System.out.println("GAME SCORE " + score[0] + ":" + score[1]);
 			return result;
 		}
 
 		else if (num1.sum > num2.sum) {
-			System.out.println("First player win!");
+			System.out.println("First player wins!");
 			score[0]++;
-			String result = "First player win!"; /* + "GAME SCORE " + score[0] + ":" + score[1];*/
+			String result = "First player wins!"; /* + "GAME SCORE " + score[0] + ":" + score[1];*/
 			KostiGUI.Resultlabel.setText(result);
 			System.out.println("GAME SCORE " + score[0] + ":" + score[1]);
 			return result;
@@ -52,9 +52,7 @@ public class CheckPlayerNum {
 	public String Score(){
 		
 		
-	//		System.out.print(arv + " ");
-//			String FinalResult = Integer.toString(arv);
-//			arv = Integer.parseInt(arv); // No more Exception in this line
+
 			String arv = score[0] + ":" + score[1];
 			return arv;
 	

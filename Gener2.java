@@ -24,15 +24,6 @@ public class Gener2 extends Object{
 	
 	} 
 	
-	public void rand4 (){
-//		
-//		System.out.println("LET'S BEGIN!");
-//		Random rand22 = new Random();
-//		y = rand22.nextInt(6) + 1;
-//		sum = x + y;
-//		System.out.println("The numbers of 2-nd player: " + x + " " + y);
-//		System.out.println("Sum of 2-nd player's number: " + sum);	
-	} 
 	
 	@Override
 	public String toString() {
